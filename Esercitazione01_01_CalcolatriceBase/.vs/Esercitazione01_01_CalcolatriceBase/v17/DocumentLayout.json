@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_01_CalcolatriceBase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{838CE36F-8E00-4D68-BF6F-C78B0549F0FA}|Esercitazione01_01_CalcolatriceBase\\Esercitazione01_01_CalcolatriceBase.csproj|c:\\users\\utente\\desktop\\academy.net-esercitazioni\\esercitazione01_01_calcolatricebase\\esercitazione01_01_calcolatricebase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{838CE36F-8E00-4D68-BF6F-C78B0549F0FA}|Esercitazione01_01_CalcolatriceBase\\Esercitazione01_01_CalcolatriceBase.csproj|solutionrelative:esercitazione01_01_calcolatricebase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 307,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_01_CalcolatriceBase\\Esercitazione01_01_CalcolatriceBase\\Program.cs",
+              "RelativeDocumentMoniker": "Esercitazione01_01_CalcolatriceBase\\Program.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_01_CalcolatriceBase\\Esercitazione01_01_CalcolatriceBase\\Program.cs",
+              "RelativeToolTip": "Esercitazione01_01_CalcolatriceBase\\Program.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:20:09.633Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
