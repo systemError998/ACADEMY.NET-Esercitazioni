@@ -12,3 +12,4 @@ C:\Users\Utente\Desktop\ACADEMY.NET-Esercitazioni\Esercitazione01_01_Calcolatric
 C:\Users\Utente\Desktop\ACADEMY.NET-Esercitazioni\Esercitazione01_01_CalcolatriceBase\Esercitazione01_01_CalcolatriceBase\obj\Debug\net8.0\Esercitazione01_01_CalcolatriceBase.pdb
 C:\Users\Utente\Desktop\ACADEMY.NET-Esercitazioni\Esercitazione01_01_CalcolatriceBase\Esercitazione01_01_CalcolatriceBase\obj\Debug\net8.0\Esercitazione01_01_CalcolatriceBase.genruntimeconfig.cache
 C:\Users\Utente\Desktop\ACADEMY.NET-Esercitazioni\Esercitazione01_01_CalcolatriceBase\Esercitazione01_01_CalcolatriceBase\obj\Debug\net8.0\ref\Esercitazione01_01_CalcolatriceBase.dll
+C:\Users\Utente\Desktop\ACADEMY.NET-Esercitazioni\Esercitazione01_01_CalcolatriceBase\Esercitazione01_01_CalcolatriceBase\obj\Debug\net8.0\Esercitazione01_01_CalcolatriceBase.sourcelink.json

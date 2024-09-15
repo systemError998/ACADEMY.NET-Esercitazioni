@@ -10,24 +10,44 @@ namespace Esercitazione01_02_GestioneListaStudenti.classes
     {
         public string? Nome { get; set; }
         public string? Cognome { get; set; }
-        public int Voto { get; set; }
-        public List<Studente> ListaStudenti { get; set; } = new List<Studente>();
+        public double Voto { get; set; }
+        public List<Studente> ListaStudenti { get; set; } = null;
 
-        public Studente(string varNome, string varCognome, int varVoto) {
+
+        public Studente() { }
+        public Studente(string varNome, string varCognome, double varVoto) {
             Nome = varNome;
             Cognome = varCognome;
             Voto = varVoto;
+            if (ListaStudenti == null)
+            {
+                ListaStudenti = new List<Studente>();
+            }
+
+            ListaStudenti.Add(this);
         }
-        public void AggiungiStudente(Studente objStudente) {
+        public void AggiungiStudente(Studente objStudente)
+        {
+            if (ListaStudenti == null)
+            {
+                ListaStudenti = new List<Studente>();
+            }
+
             ListaStudenti.Add(objStudente);
         }
 
         public void RimuoviStudente(Studente objStudente)
         {
-            
+            if (ListaStudenti.Contains(objStudente))
+            {
+                ListaStudenti.Remove(objStudente);
+            }
+            else {
+                Console.WriteLine("Non esiste questo studente, che te voi eliminà?");
+            }
         }
 
-        public void ModificaStudente(string varNome, string varCognome, int varVoto) {
+        public void ModificaStudente(string varNome, string varCognome, double varVoto) {
             Nome = varNome;
             Cognome = varCognome;
             Voto = varVoto;
@@ -38,9 +58,15 @@ namespace Esercitazione01_02_GestioneListaStudenti.classes
         }
 
         public void StampaStudenti() {
-            foreach (Studente stu in ListaStudenti)
+            if (ListaStudenti is not null)
             {
-                Console.WriteLine(stu.ToString());
+                foreach (Studente stu in ListaStudenti)
+                {
+                    Console.WriteLine(stu.ToString());
+                }
+            }
+            else {
+                Console.WriteLine("non c'è nessuno studentazzo qua"); 
             }
         }
 
