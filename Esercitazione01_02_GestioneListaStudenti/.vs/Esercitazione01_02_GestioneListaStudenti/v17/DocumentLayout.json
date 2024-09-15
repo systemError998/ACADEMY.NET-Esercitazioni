@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_02_GestioneListaStudenti\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|c:\\users\\utente\\desktop\\academy.net-esercitazioni\\esercitazione01_02_gestionelistastudenti\\esercitazione01_02_gestionelistastudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|solutionrelative:esercitazione01_02_gestionelistastudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|c:\\users\\utente\\desktop\\academy.net-esercitazioni\\esercitazione01_02_gestionelistastudenti\\esercitazione01_02_gestionelistastudenti\\classes\\universita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|solutionrelative:esercitazione01_02_gestionelistastudenti\\classes\\universita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|c:\\users\\utente\\desktop\\academy.net-esercitazioni\\esercitazione01_02_gestionelistastudenti\\esercitazione01_02_gestionelistastudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|solutionrelative:esercitazione01_02_gestionelistastudenti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|c:\\users\\utente\\desktop\\academy.net-esercitazioni\\esercitazione01_02_gestionelistastudenti\\esercitazione01_02_gestionelistastudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4065721-BC86-426E-B683-E2FB6BC52A31}|Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti.csproj|solutionrelative:esercitazione01_02_gestionelistastudenti\\classes\\studente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,16 +27,35 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Universita.cs",
+              "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti\\classes\\Universita.cs",
+              "RelativeDocumentMoniker": "Esercitazione01_02_GestioneListaStudenti\\classes\\Universita.cs",
+              "ToolTip": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti\\classes\\Universita.cs",
+              "RelativeToolTip": "Esercitazione01_02_GestioneListaStudenti\\classes\\Universita.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA9wEEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T07:05:37.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Studente.cs",
               "DocumentMoniker": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti\\classes\\Studente.cs",
               "RelativeDocumentMoniker": "Esercitazione01_02_GestioneListaStudenti\\classes\\Studente.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti\\classes\\Studente.cs",
               "RelativeToolTip": "Esercitazione01_02_GestioneListaStudenti\\classes\\Studente.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA4wCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T13:20:12.426Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 308,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,7 +64,7 @@
               "RelativeDocumentMoniker": "Esercitazione01_02_GestioneListaStudenti\\Program.cs",
               "ToolTip": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Esercitazione01_02_GestioneListaStudenti\\Esercitazione01_02_GestioneListaStudenti\\Program.cs",
               "RelativeToolTip": "Esercitazione01_02_GestioneListaStudenti\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA0wB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T13:19:17.275Z",
               "EditorCaption": ""

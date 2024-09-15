@@ -21,24 +21,20 @@ namespace Esercitazione01_02_GestioneListaStudenti
             //}
 
 
-            //Studente Elenco = new Studente(List<Studente>arrayListaStudenti);
-            Studente stu = new Studente();
+            
+            Universita iemme = new Universita();
+
             Studente giu = new Studente("Giulio","Cerasoli",9.5);
             Studente roby = new Studente("Roberta","Balzotti",6.6);
             Studente anna = new Studente("Anna","Panna",1);
 
+            iemme.AggiungiStudente(giu);
+            iemme.AggiungiStudente(roby);
+            iemme.AggiungiStudente(anna);
 
-            Console.WriteLine("primi studenti aggiungti");
-            stu.StampaStudenti();
-            Console.WriteLine("------------------------------------");
-            Console.WriteLine("rimuovo giu");
-            stu.RimuoviStudente(giu);
-            stu.StampaStudenti();
-            Console.WriteLine("------------------------------------");
-            Console.WriteLine("modifico roby");
-            roby.ModificaStudente("Roberta Silvia", "Balzotti", 8);
-            Console.WriteLine("stampo gli studenti modificati");
-            stu.StampaStudenti();
+            anna.ModificaStudente("Anna", "Cerasoli", 1);
+
+            // iemme.FiltraStudenti(1);
 
         }
     }
