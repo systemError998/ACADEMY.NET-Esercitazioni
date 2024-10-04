@@ -17,7 +17,8 @@ CREATE TABLE Istruttore(
 	nome VARCHAR(250) NOT NULL,
 	cogn VARCHAR(250) NOT NULL,
 	spec VARCHAR(250) NOT NULL,
-	orar VARCHAR(250) NOT NULL
+	orar VARCHAR(250) NOT NULL,
+	dayz VARCHAR(250) NOT NULL
 )
 
 CREATE TABLE Abbonamenti (
@@ -76,17 +77,17 @@ INSERT INTO Membro (nome, cogn, nasc, sess, mail, cell, abbo) VALUES
 ('Giulio', 'Cerasoli', '1990-07-19', 'F', 'giulioceras@yahoo.com', '3289876589', '2019-02-01'),
 ('Anna', 'Panna', '1992-08-30', 'M', 'anna.panna@libero.it', '3295678943', '2020-03-01')
 
-INSERT INTO Istruttore (nome, cogn, spec, orar) VALUES
-('Davide', 'Caruso', 'Yoga', 'Lun-Mer-Ven 9:00-11:00'),
-('Martina', 'Romano', 'Pilates', 'Mar-Gio-Sab 10:00-12:00'),
-('Simone', 'Moretti', 'Spinning', 'Lun-Ven 17:00-19:00'),
-('Federica', 'Sanna', 'Pesi', 'Mer-Ven 8:00-10:00'),
-('Alessia', 'Leone', 'Yoga', 'Lun-Mer 15:00-17:00'),
-('Giorgio', 'Rizzo', 'Pilates', 'Mar-Ven 18:00-20:00'),
-('Sabrina', 'Gatti', 'Spinning', 'Lun-Gio 13:00-15:00'),
-('Marco', 'De Luca', 'Pesi', 'Mer-Sab 16:00-18:00'),
-('Carla', 'Pini', 'Yoga', 'Mar-Gio-Sab 11:00-13:00'),
-('Vincenzo', 'Santoro', 'Pilates', 'Lun-Ven 12:00-14:00');
+INSERT INTO Istruttore (nome, cogn, spec, dayz, orar) VALUES
+('Davide', 'Caruso', 'Yoga', 'Lun-Mer-Ven', '9:00-11:00'),
+('Martina', 'Romano', 'Pilates', 'Mar-Gio-Sab', '10:00-12:00'),
+('Simone', 'Moretti', 'Spinning', 'Lun-Ven', '17:00-19:00'),
+('Federica', 'Sanna', 'Pesi', 'Mer-Ven',' 8:00-10:00'),
+('Alessia', 'Leone', 'Yoga', 'Lun-Mer',' 15:00-17:00'),
+('Giorgio', 'Rizzo', 'Pilates', 'Mar-Ven',' 18:00-20:00'),
+('Sabrina', 'Gatti', 'Spinning', 'Lun-Gio',' 13:00-15:00'),
+('Marco', 'De Luca', 'Pesi', 'Mer-Sab',' 16:00-18:00'),
+('Carla', 'Pini', 'Yoga', 'Mar-Gio-Sab',' 11:00-13:00'),
+('Vincenzo', 'Santoro', 'Pilates', 'Lun-Ven',' 12:00-14:00');
 
 INSERT INTO Abbonamenti (tipo, prez, membroRIF) VALUES
 ('Mensile', 39.90, 1),

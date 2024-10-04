@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <img href="index.html" src="https://static.vecteezy.com/system/resources/previews/009/354/891/non_2x/magician-hat-clipart-design-illustration-free-png.png" alt="" width="70px">
+
+        <a class="navbar-brand" href="#">Lollivander</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Bacchette<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="casate.html">Casate</a>
+            </li>
+            </ul>
+            <!-- <span class="navbar-text">
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modalBacchetta">Aggiungi bacchetta</button>
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modalCasata">Aggiungi casata</button>
+            </span> -->
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        
+        <div class="row mx-auto" id="rigaBacchette">
+            <!-- stampaBacchette() -->
+        </div>
+
+    </div>
+
+    <!-- modale modifica -->
+        <div class="modal fade" id="modalModBacchetta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modifica casata</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <!-- <div class="form-group">
+                        <label for="input-codice">Codice</label>
+                        <input type="number" class="form-control" id="input-codice"/>
+                    </div> -->
+                    <div class="form-group">
+                        <label for="input-materiale">Materiale</label>
+                        <input type="text" class="form-control" id="input-materiale-mod"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-nucleo">Nucleo</label>
+                        <input type="text" class="form-control" id="input-nucleo-mod"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-resistenza">Resistenza</label> <br>
+                          <select name="resistenza" id="input-resistenza-mod" class="w-100 form-select form-select-lg mb-3 " aria-label=".form-select-lg example">
+                            <option value="delicatissima">Delicatissima</option>
+                            <option value="deboluccia">Deboluccia</option>
+                            <option value="forte">Forte</option>
+                            <option value="moltoforte">Molto forte</option>
+                            <option value="indistruttibile">Indistruttibile</option>
+                          </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-lunghezza">Lunghezza (cm)</label>
+                        <input type="number" class="form-control" id="input-lunghezza-mod" min="10" max="30"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-mago">Nome del mago proprietario</label>
+                        <input type="text" class="form-control" id="input-mago-mod"/>
+                    </div>
+                    <!-- CASATA DEL MAGO E DELLA BACCHETTA -->
+                    <div class="form-group">
+                        <label for="input-casata">Genera casata</label> <br>
+                        <!-- <input type="text" class="form-control" id="input-casata"/> -->
+                        <div class="d-flex align-items-center">
+                            <button onclick="generaCasata()">
+                              <img src="https://cdn.icon-icons.com/icons2/1352/PNG/512/if-06-harry-potter-colour-sorting-hat-2730319_88134.png" width="20px">
+                            </button>
+                            <p id="input-casata-mod"> <!-- casata random --> </p>
+                          </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="input-linkBacc">Link foto bacchetta</label>
+                        <input type="text" class="form-control" id="input-linkBacc"/>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="aggiungiCasata()">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    <!-- modale modifica -->
+
+
+
+    <script src="scriptInserimento.js"></script>
+    <script src="scriptBacchette.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
