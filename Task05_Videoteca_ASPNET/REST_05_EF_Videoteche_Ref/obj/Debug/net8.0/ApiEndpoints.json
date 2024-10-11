@@ -1,0 +1,173 @@
+[
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.SupportoController",
+    "Method": "GetAllSupporti",
+    "RelativePath": "api/supporti",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[REST_05_EF_Videoteche_Ref.Models.SupportoDTO, REST_05_EF_Videoteche_Ref, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.SupportoController",
+    "Method": "GetByCodice",
+    "RelativePath": "api/supporti/{varCodice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "REST_05_EF_Videoteche_Ref.Models.SupportoDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.SupportoController",
+    "Method": "DeleteSupporto",
+    "RelativePath": "api/supporti/{varCodice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.VideotecaController",
+    "Method": "GetAllVideoteche",
+    "RelativePath": "api/videoteche",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[REST_05_EF_Videoteche_Ref.Models.VideotecaDTO, REST_05_EF_Videoteche_Ref, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.VideotecaController",
+    "Method": "InserisciVideoteca",
+    "RelativePath": "api/videoteche",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varNome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "varInd",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.VideotecaController",
+    "Method": "ModificaVideoteca",
+    "RelativePath": "api/videoteche",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "varNome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "varInd",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.VideotecaController",
+    "Method": "CercaPerCodice",
+    "RelativePath": "api/videoteche/{varCodice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "REST_05_EF_Videoteche_Ref.Models.VideotecaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "REST_05_EF_Videoteche_Ref.Controllers.VideotecaController",
+    "Method": "DeleteVideoteca",
+    "RelativePath": "api/videoteche/{varCodice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
