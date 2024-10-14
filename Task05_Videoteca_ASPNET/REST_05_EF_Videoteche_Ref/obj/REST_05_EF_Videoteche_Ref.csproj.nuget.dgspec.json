@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente\\Downloads\\johnnypax iemme-academy-net main REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj": {}
+    "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Task05_Videoteca_ASPNET\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente\\Downloads\\johnnypax iemme-academy-net main REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj": {
+    "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Task05_Videoteca_ASPNET\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\Downloads\\johnnypax iemme-academy-net main REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj",
+        "projectUniqueName": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Task05_Videoteca_ASPNET\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj",
         "projectName": "REST_05_EF_Videoteche_Ref",
-        "projectPath": "C:\\Users\\Utente\\Downloads\\johnnypax iemme-academy-net main REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj",
+        "projectPath": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Task05_Videoteca_ASPNET\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj",
         "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\Downloads\\johnnypax iemme-academy-net main REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref\\obj\\",
+        "outputPath": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Task05_Videoteca_ASPNET\\REST_05_EF_Videoteche_Ref\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

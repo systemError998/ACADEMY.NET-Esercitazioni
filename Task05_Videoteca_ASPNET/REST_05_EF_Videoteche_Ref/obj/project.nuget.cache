@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CasNOUrA0p8=",
+  "dgSpecHash": "Wd2zUOFDYVI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utente\\Downloads\\johnnypax iemme-academy-net main REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj",
+  "projectFilePath": "C:\\Users\\Utente\\Desktop\\ACADEMY.NET-Esercitazioni\\Task05_Videoteca_ASPNET\\REST_05_EF_Videoteche_Ref\\REST_05_EF_Videoteche_Ref.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Utente\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Utente\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,0 +1,6 @@
+@Task05_Gestionale_Officina_HostAddress = http://localhost:5140
+
+GET {{Task05_Gestionale_Officina_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
