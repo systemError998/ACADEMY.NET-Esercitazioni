@@ -8,7 +8,7 @@
         bool Update(T entity);
         bool Delete(string codice);
 
-        //geybycodice
+        //getbycodice
 
     }
 }

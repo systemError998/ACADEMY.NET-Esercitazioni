@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/nmcJP3t/Designer-removebg-preview.png" alt="Designer-removebg-preview" height="70px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/home']" routerLinkActive="router-link-active"  >Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/destinazioni']" >Destinazioni</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/pacchetti']">Pacchetti Vacanza</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/recensioni']">Recensioni</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

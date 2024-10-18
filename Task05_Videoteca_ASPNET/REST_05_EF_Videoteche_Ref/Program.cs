@@ -10,7 +10,21 @@ namespace REST_05_EF_Videoteche_Ref
     {
         public static void Main(string[] args)
         {
+            var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
             var builder = WebApplication.CreateBuilder(args);
+
+            // ---- AGGIUNGO LE CORS PER PERMETTERE LA CONNESSIONE PER PROBLEMI SULL'ORIGINE DELL'URL ---
+            // ---- CRITERI DI CORRISPONDENZA DELL'ORIGINE
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins, policy =>
+                                  {
+                                      policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+                                  });
+            });
+
+
 
             // Add services to the container.
 
@@ -47,6 +61,8 @@ namespace REST_05_EF_Videoteche_Ref
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
 
