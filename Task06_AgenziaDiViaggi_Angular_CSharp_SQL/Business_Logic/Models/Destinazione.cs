@@ -13,5 +13,8 @@ namespace Business_Logic.Models
         public string? Descrizione { get; set; }
         public string? Paese { get; set; }
         public string? Copertina { get; set; }
+
+        //grazie scaffold
+        public virtual ICollection<DestinazionePacchettoVacanza> DestinazionePacchettoVacanzas { get; set; } = new List<DestinazionePacchettoVacanza>();
     }
 }

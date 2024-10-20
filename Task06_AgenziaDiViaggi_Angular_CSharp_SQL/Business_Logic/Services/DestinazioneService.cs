@@ -1,9 +1,10 @@
 ﻿using Business_Logic.Models;
+using Business_Logic.Models.DTO;
 using Business_Logic.Repos;
 
 namespace Business_Logic.Services
 {
-    public class DestinazioneService : IService<Destinazione>
+    public class DestinazioneService : IService<DestinazioneDTO>
     {
         private readonly DestinazioneRepo _repo;
 
@@ -11,25 +12,32 @@ namespace Business_Logic.Services
             _repo = repo;
         }
 
-        public Destinazione? Cerca(string varCod)
+        public List<DestinazioneDTO> Lista()
         {
-            throw new NotImplementedException();
-        }
-
-        public List<Destinazione> Lista()
-        {
-            List<Destinazione> destinazioniTrovate = new List<Destinazione>();
+            List<DestinazioneDTO> destinazioniDTO = new List<DestinazioneDTO>();
             IEnumerable<Destinazione> elencoDestinazioni = _repo.GetAll();
 
             foreach (Destinazione dest in elencoDestinazioni) {
-                if (dest is not null) { 
-
-                    destinazioniTrovate.Add(dest);
+                if (dest is not null) {
+                    DestinazioneDTO destDTO = new DestinazioneDTO()
+                    {
+                        cod = dest.DestinazioneCOD,
+                        nom = dest.Nome,
+                        des = dest.Descrizione,
+                        pae = dest.Paese,
+                        img = dest.Copertina
+                    };
+                    destinazioniDTO.Add(destDTO);
                 }
             }
 
-            return destinazioniTrovate;
+            return destinazioniDTO;
 
+        }
+
+        DestinazioneDTO? IService<DestinazioneDTO>.Cerca(string varCod)
+        {
+            throw new NotImplementedException();
         }
     }
 }

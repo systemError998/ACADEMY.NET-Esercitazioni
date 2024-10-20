@@ -1,0 +1,29 @@
+<h1>Lista recensioni</h1>
+
+<!-- <div class="alert alert-success mt-3" role="alert" *ngIf="successo">
+    Operazione effettuata con successo xD
+</div> -->
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrizione</th>
+            <th>Quantità</th>
+            <th>Prezzo</th>
+            <th>Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let prod of elencoRecensioni">
+            <td>{{ prod.uten }}</td>
+            <td>{{ prod.voto }}</td>
+            <td>{{ prod.text }}</td>
+            <td>{{ prod.data }}</td>
+            <!-- <td>
+                <button type="button" class="btn btn-danger" (click)="elimina(prod.cod)">X</button>
+                <a href="/prodotti/modifica/{{ prod.cod }}" class="btn btn-warning">M</a>
+            </td> -->
+        </tr>
+    </tbody>
+</table>

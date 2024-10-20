@@ -37,7 +37,15 @@ namespace Business_Logic
             builder.Services.AddScoped<Destinazione>();
             builder.Services.AddScoped<DestinazioneRepo>();
             builder.Services.AddScoped<DestinazioneService>();
-            
+
+            builder.Services.AddScoped<PacchettoVacanza>();
+            builder.Services.AddScoped<PacchettoVacanzaRepo>();
+            builder.Services.AddScoped<PacchettoVacanzaService>();
+
+            builder.Services.AddScoped<Recensione>();
+            builder.Services.AddScoped<RecensioneRepo>();
+            builder.Services.AddScoped<RecensioneService>();
+
 
             var app = builder.Build();
 

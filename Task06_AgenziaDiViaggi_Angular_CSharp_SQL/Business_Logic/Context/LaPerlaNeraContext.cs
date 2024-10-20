@@ -9,8 +9,8 @@ namespace Business_Logic.Context
         { }
 
         public DbSet<Destinazione> Destinazioni { get; set; }
-        // public DbSet<PacchettoVacanza> Pacchetti_Vacanza { get; set; }
-        // public DbSet<Recensione> Recensioni { get; set; }
+        public DbSet<PacchettoVacanza> Pacchetti { get; set; }
+        public DbSet<Recensione> Recensioni { get; set; }
 
 
     }

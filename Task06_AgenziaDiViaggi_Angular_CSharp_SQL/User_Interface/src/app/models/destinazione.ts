@@ -1,9 +1,9 @@
 export class Destinazione {
     cod: string | undefined;
-    nome: string | undefined;
-    descrizione: string | undefined;
-    paese: string | undefined;
-    copertina: string | undefined;
+    nom: string | undefined;
+    des: string | undefined;
+    pae: string | undefined;
+    img: string | undefined;
 
 
 }

@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Destinazione } from "../models/destinazione";
-import urlDestinazioni from "../config/url";
+import { urlDestinazioni } from "../config/url";
 
 //prvidedIN indica che l'iniezione è disponibile a libello globale
 @Injectable({
@@ -21,12 +21,13 @@ export class DestinazioneRepo{
             }
         })
         .then(response => response.json())
-        .then(data => {
-            data.forEach((element: Destinazione) => {
+         .then(arrayDestinazioni => {
+            arrayDestinazioni.forEach((element: Destinazione) => {
                 this.elencoDestinazioni.push(element);
+                // console.log(element);
             });
+            
         })
-        .then(data => console.log(data))
         .catch(error => {
             console.error("Errore nel fetch:", error);
         });

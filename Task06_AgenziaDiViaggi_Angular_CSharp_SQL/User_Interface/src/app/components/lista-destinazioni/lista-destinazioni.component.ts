@@ -18,11 +18,8 @@ export class ListaDestinazioniComponent {
   elencoDestinazioni: Destinazione[] = [];
 
   ngOnInit(){
-    this.stampaDestinazioni();
-  }
-
-  stampaDestinazioni(){
     this.elencoDestinazioni = this.service.ListaDestinazioni();
   }
+
 
 }

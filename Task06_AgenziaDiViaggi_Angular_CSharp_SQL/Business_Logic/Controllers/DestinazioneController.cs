@@ -1,4 +1,5 @@
 ﻿using Business_Logic.Models;
+using Business_Logic.Models.DTO;
 using Business_Logic.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -15,9 +16,9 @@ namespace Business_Logic.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Destinazione>> MostraTutteDestinazioni() { 
+        public ActionResult<List<DestinazioneDTO>> MostraTutteDestinazioni() { 
 
-            List<Destinazione> elencoDestinazioni = _service.Lista();
+            List<DestinazioneDTO> elencoDestinazioni = _service.Lista();
 
             if (elencoDestinazioni is not null) {
                 return Ok(elencoDestinazioni);
